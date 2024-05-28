@@ -1,0 +1,45 @@
+.bulb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bulb {
+    width: 200px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    z-index: 100;
+    position: relative;
+}
+
+.bulb.on {
+    background-color: yellow;
+    -webkit-box-shadow: -2px -1px 15px 7px yellow;
+    -moz-box-shadow: -3px -2px 30px 14px yellow;
+    box-shadow: -4px -3px 45px 21px yellow;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 150px;
+}
+
+.bulb-wrapper img {
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.bulb-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
